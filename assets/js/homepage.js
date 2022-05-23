@@ -10,8 +10,23 @@ var getUserRepos = function(user) {
   });
 };
 
+var userFormEl = document.querySelector("#user-form");
+var nameInputEl = document.querySelector("#username");
 
+var formSubmitHandler = function(event) {
+  event.preventDefault();
+  // get value from input element
+var username = nameInputEl.value.trim();
 
-getUserRepos()
+if (username) {
+  getUserRepos(username);
+  nameInputEl.value = "";
+} else {
+  alert("Please enter a GitHub username");
+}
+  console.log(event);
+};
+
+userFormEl.addEventListener("submit", formSubmitHandler);
 
   
