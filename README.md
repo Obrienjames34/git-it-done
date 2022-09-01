@@ -12,6 +12,8 @@ Git-it-done is a website that allows you to check existing Github issues by user
 - Users can click on a language button to see a list of featured repos that use that language.
 - Examples: HTML, CSS, JavaScript.
   The list of featured repos will look exactly like the list of user repos.
+  
+<img width="1165" alt="Screen Shot 2022-08-31 at 8 02 28 PM" src="https://user-images.githubusercontent.com/101817569/187806408-6fd5cb07-e70c-4ca2-8de1-ea0582874bc8.png">
 
 # User Story
 
